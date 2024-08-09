@@ -1,0 +1,29 @@
+Optimizing Linkage Editor (V.10.01.00.000)        17-Dec-2016 14:20:00
+
+*** Options ***
+
+-subcommand=E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_kosyukai2014.m16cl
+-noprelink
+-nodebug
+-nomessage
+-list="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_kosyukai2014.map"
+-nooptimize
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,interrupt,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,C$VTBL,program/04000,vector/0FED8,rom_FE,rom_FO/010000
+-nologo
+-stack
+-total_size
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\data_flash_lib.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_2016_hokushinetu_basic.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\microsd_lib.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\printf_lib.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\startup.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\switch_lib.obj"
+-library="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_kosyukai2014.lib"
+-output="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_kosyukai2014.abs"
+-change_message=information=1100,1322,1410
+-end
+
+*** Error information ***
+
+** L2310 (E) Undefined external symbol "$lcdPosition" referenced in "E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_2016_hokushinetu_basic.obj"
+** L2310 (E) Undefined external symbol "_lcdPrintf" referenced in "E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Release\kit12_38a_2016_hokushinetu_basic.obj"

@@ -1,0 +1,8 @@
+-lang=c
+-I"..\..\..\common_r8c38a"
+-c
+-finfo
+-dir "E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug"
+-silent
+-R8CE
+"E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\2016_zenkoku_test_1.c"

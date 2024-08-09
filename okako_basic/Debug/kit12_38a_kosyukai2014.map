@@ -1,0 +1,86 @@
+Optimizing Linkage Editor (V.10.01.00.000)        21-Jan-2017 12:40:20
+
+*** Options ***
+
+-subcommand=E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\kit12_38a_kosyukai2014.m16cl
+-noprelink
+-nomessage
+-list="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\kit12_38a_kosyukai2014.map"
+-nooptimize
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,interrupt,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,C$VTBL,program/04000,vector/0FED8,rom_FE,rom_FO/010000
+-nologo
+-stack
+-total_size
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\mcr118.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\printf_lib.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\startup.obj"
+-input="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\switch_lib.obj"
+-library="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\kit12_38a_kosyukai2014.lib"
+-output="E:\denki_club\prog\hew\r8c\2016\kit12_38a_2014\kit12_38a_kosyukai2014\Debug\kit12_38a_kosyukai2014.abs"
+-change_message=information=1100,1322,1410
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000044f        50   2
+bss_NE
+                                  00000450  00001ef7      1aa8   2
+data_NO
+                                  00001ef8  00001ef8         0   1
+bss_NO
+                                  00001ef8  00002161       26a   1
+stack
+                                  00002162  00002361       200   1
+istack
+                                  00002362  00002461       100   1
+heap_NE
+                                  00002462  00002462         0   2
+interrupt
+                                  00004000  00004000         0   2
+data_SEI
+                                  00004000  00004000         0   1
+data_SOI
+                                  00004000  00004000         0   1
+data_NEI
+                                  00004000  0000404f        50   2
+data_NOI
+                                  00004050  00004050         0   1
+program
+                                  00004050  00008b8d      4b3e   2
+vector
+                                  0000fed8  0000ffd7       100   2
+fvector
+                                  0000ffd8  0000ffff        28   1
+rom_FE
+                                  00010000  0001005b        5c   2
+rom_FO
+                                  0001005c  000101ab       150   1
+
+*** ID code information ***
+
+CHARACTOR STRING=""
+NUMERICAL VALUE=
+  0000ffdf: ff
+  0000ffe3: ff
+  0000ffeb: ff
+  0000ffef: ff
+  0000fff3: ff
+  0000fff7: ff
+  0000fffb: ff
+
+*** Protect code or OFSREG code information ***
+
+  0000ffff: bf

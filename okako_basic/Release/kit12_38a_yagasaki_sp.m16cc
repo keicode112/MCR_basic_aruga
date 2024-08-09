@@ -1,0 +1,7 @@
+-lang=c
+-c
+-finfo
+-dir "C:\WorkSpace\kit12_38a_2014\kit12_38a_kosyukai2014\Release"
+-silent
+-R8CE
+"C:\WorkSpace\kit12_38a_2014\kit12_38a_kosyukai2014\kit12_38a_yagasaki_sp.c"

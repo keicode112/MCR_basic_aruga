@@ -1,0 +1,85 @@
+Optimizing Linkage Editor (V.10.01.00.000)        14-Oct-2023 11:49:11
+
+*** Options ***
+
+-subcommand=D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\okako_basic.m16cl
+-noprelink
+-nomessage
+-list="D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\okako_basic.map"
+-nooptimize
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,interrupt,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,C$VTBL,program/04000,vector/0FED8,rom_FE,rom_FO/010000
+-nologo
+-stack
+-total_size
+-input="D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\2023_basic_fwd.obj"
+-input="D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\printf_lib.obj"
+-input="D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\startup.obj"
+-library="D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\okako_basic.lib"
+-output="D:\work\denki_club\prog\hew\r8c\2023\mcr_basic_FrontWheelDrive\okako_basic\Debug\okako_basic.abs"
+-change_message=information=1100,1322,1410
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000449        4a   2
+bss_NE
+                                  0000044a  00001ea3      1a5a   2
+data_NO
+                                  00001ea4  00001ea4         0   1
+bss_NO
+                                  00001ea4  0000210d       26a   1
+stack
+                                  0000210e  0000230d       200   1
+istack
+                                  0000230e  0000240d       100   1
+heap_NE
+                                  0000240e  0000240e         0   2
+interrupt
+                                  00004000  00004000         0   2
+data_SEI
+                                  00004000  00004000         0   1
+data_SOI
+                                  00004000  00004000         0   1
+data_NEI
+                                  00004000  00004049        4a   2
+data_NOI
+                                  0000404a  0000404a         0   1
+program
+                                  0000404a  0000885f      4816   2
+vector
+                                  0000fed8  0000ffd7       100   2
+fvector
+                                  0000ffd8  0000ffff        28   1
+rom_FE
+                                  00010000  0001005f        60   2
+rom_FO
+                                  00010060  000101af       150   1
+
+*** ID code information ***
+
+CHARACTOR STRING=""
+NUMERICAL VALUE=
+  0000ffdf: ff
+  0000ffe3: ff
+  0000ffeb: ff
+  0000ffef: ff
+  0000fff3: ff
+  0000fff7: ff
+  0000fffb: ff
+
+*** Protect code or OFSREG code information ***
+
+  0000ffff: bf
